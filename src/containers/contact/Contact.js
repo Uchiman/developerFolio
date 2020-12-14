@@ -28,7 +28,7 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              <a className="contact-detail" href={"tel:" + contactInfo.number}>
+              <a className="contact-detail" href={"https://api.whatsapp.com/send?phone=" + contactInfo.number + "&text=Assalamu'alaikum"}>
                 {contactInfo.number}
               </a>
               <br />

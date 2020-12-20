@@ -75,7 +75,7 @@ const educationInfo = {
       logo: require("./assets/images/darussunnah.png"),
       subHeader: "Wangon - Banyumas - Central Java",
       duration: "2013 - 2017",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, ...",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -86,7 +86,7 @@ const educationInfo = {
       logo: require("./assets/images/binbaz.png"),
       subHeader: "Piyungan - Bantul - Special Region of Yogyakarta",
       duration: "2018 - 2020",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, ...",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       ]
@@ -96,7 +96,7 @@ const educationInfo = {
       logo: require("./assets/images/pondokpro.png"),
       subHeader: "Kretek - Bantul - Special Region of Yogyakarta",
       duration: "July 2020 - February 2021",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, ...",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       ]
@@ -161,7 +161,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "Uchiman", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
 };
 

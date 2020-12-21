@@ -243,27 +243,27 @@ const blogSection = {
 
 // Talks Sections
 
-// const talkSection = {
-//   title: "TALKS",
-//   subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
 
-//   talks: [{
-//     title: "Build Actions For Google Assistant",
-//     subtitle: "Codelab at GDG DevFest Karachi 2019",
-//     slides_url: "https://bit.ly/saadpasta-slides",
-//     event_url: "https://www.facebook.com/events/2339906106275053/"
-//   }]
-// };
+  talks: [{
+    title: "Build Actions For Google Assistant",
+    subtitle: "Codelab at GDG DevFest Karachi 2019",
+    slides_url: "https://bit.ly/saadpasta-slides",
+    event_url: "https://www.facebook.com/events/2339906106275053/"
+  }]
+};
 
 // Podcast Section
 
-// const podcastSection = {
-//   title: emoji("Podcast 🎙️"),
-//   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+const podcastSection = {
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-//   // Please Provide with Your Podcast embeded Link
-//   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
-// };
+  // Please Provide with Your Podcast embeded Link
+  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -291,5 +291,5 @@ export {
   achievementSection,
   blogSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
 };

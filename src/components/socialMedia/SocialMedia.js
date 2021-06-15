@@ -39,15 +39,15 @@ export default function socialMedia() {
       null }
 
       {socialMediaLinks.facebook ?
-      <a href={socialMediaLinks.facebook} className="icon-button facebook" target="_blank">
+      <a href={socialMediaLinks.facebook} className="icon-button facebook" id="facebook" target="_blank">
         <i className="fab fa-facebook-f"></i>
         <span></span>
       </a>
       :
       null}
 
-       {socialMediaLinks.instagram ?
-      <a href={socialMediaLinks.instagram} className="icon-button instagram" target="_blank">
+      {socialMediaLinks.instagram ?
+      <a href={socialMediaLinks.instagram} className="icon-button instagram" id="instagram" target="_blank">
         <i className="fab fa-instagram"></i>
         <span></span>
       </a>
@@ -81,3 +81,11 @@ export default function socialMedia() {
     </div>
   );
 }
+
+  $('#instagram').click(function() {
+    fbq('track', 'ClickInstagram', {content_category: 'Instagram'});
+  });
+
+  $('#instagram').click(function() {
+    fbq('track', 'ClickFacebook', {content_category: 'Facebook'});
+  });

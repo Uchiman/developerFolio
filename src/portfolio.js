@@ -20,8 +20,8 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/usman-khabilah-6097641b7/",
   gmail: "utsman.khabillah0@gmail.com",
   facebook: "https://www.facebook.com/usmankhabilah",
-  instagram: "https://www.instagram.com/uchiman_kun",
-  twitter: "https://www.twitter.com/uchiman_kun",
+  instagram: "https://www.instagram.com/uchiman_dev",
+  twitter: "https://www.twitter.com/uchiman_dev",
   // Instagram and Twitter are also supported in the links!
 };
 

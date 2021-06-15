@@ -81,11 +81,3 @@ export default function socialMedia() {
     </div>
   );
 }
-
-  $('#instagram').click(function() {
-    fbq('track', 'ClickInstagram', {content_category: 'Instagram'});
-  });
-
-  $('#instagram').click(function() {
-    fbq('track', 'ClickFacebook', {content_category: 'Facebook'});
-  });
